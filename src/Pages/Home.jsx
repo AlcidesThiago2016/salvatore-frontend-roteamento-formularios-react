@@ -16,7 +16,7 @@ export default function Home(){
     if (response.ok){
       const data = await response.json()
 
-      setDevmons(data)
+    setDevmons(data)
     }else {
       toast.error('Erro ao carregar lista de Devmon.')
     }
